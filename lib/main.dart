@@ -19,7 +19,7 @@ Future<void> main() async {
     statusBarColor: Color.fromRGBO(89, 213, 224, 1.0),
   ));
 
-  //for setting orientation to only portrait
+  //for setting orientation to only portrait ()
   SystemChrome.setPreferredOrientations(
           [DeviceOrientation.portraitUp, DeviceOrientation.portraitDown])
       .then((value) async {
