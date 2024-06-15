@@ -1,0 +1,122 @@
+name: wave_chat
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to our application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+
+  #For integrating firebase with flutter
+  firebase_core: ^2.24.2
+
+  #For handling google sign in
+  google_sign_in: ^6.2.1
+
+  #For handing firebase authentication
+  firebase_auth: ^4.16.0
+
+  # For Accessing Firestore Database
+  cloud_firestore: ^4.15.0
+
+  # For Adding Splash Screen
+  flutter_native_splash: ^2.3.10
+
+  #For showing network images
+  cached_network_image: ^3.3.1
+
+  #For picking image from mobile device
+  image_picker: ^1.0.7
+
+  #For using firebase storage for uploading file
+  firebase_storage: ^11.6.6
+
+  #For showing emoji
+  emoji_picker_flutter: ^2.1.0
+
+  #For access cloud messaging(Push Notification)
+  firebase_messaging: ^14.7.21
+
+  #For calling REST APIs
+  http: 0.13.6
+
+  #For creating a custom notification channel
+  flutter_notification_channel: ^3.1.0
+
+  #For saving image to gallery
+  gallery_saver: ^2.3.2
+
+  #For picking video and document file
+  file_picker: ^8.0.0+1
+
+
+  appinio_video_player: ^1.3.0
+
+  video_player: ^2.6.0
+
+  flutter_document_picker: ^5.2.3
+
+  url_launcher: ^6.2.6
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+    
+  #For Adding App icon to App
+  flutter_launcher_icons: "^0.13.1"
+  # The "flutter_lints" package below contains a set of recommended lints to
+
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^3.0.2
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+  # The following line ensures that the Material Icons font is
+
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+  # To add assets to your application, add an assets section, like this:
+
+  assets:
+    - assets/images/
+  # An image asset can refer to one or more resolution-specific "variants", see
+
+  # https://flutter.dev/assets-and-images/#resolution-aware
+  # For details regarding adding assets from package dependencies, see
+
+  # https://flutter.dev/assets-and-images/#from-packages
+  # To add custom fonts to your application, add a fonts section here,
+
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
+

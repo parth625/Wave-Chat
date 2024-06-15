@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "812848699403",
+    "project_id": "wave-chat-98263",
+    "storage_bucket": "wave-chat-98263.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:812848699403:android:fd39ea60c55ec342174f0e",
+        "android_client_info": {
+          "package_name": "com.example.wave_chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "812848699403-n21v1d5k0025pqhuk2prmob8acapicg1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.wave_chat",
+            "certificate_hash": "c39abe4d0081e9a328802d9a3527e0e1bd802335"
+          }
+        },
+        {
+          "client_id": "812848699403-o3dq608577aai86age68ecean1i8idtl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAB5OIg457eFdJA4LWLJ09tCvejeS3pfzY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "812848699403-o3dq608577aai86age68ecean1i8idtl.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "812848699403-ukt9ivmcm44huha4cnea1mr8t0e877s3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.waveChat"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
